@@ -1,6 +1,0 @@
-services:
-  - type: web
-    name: mottorpay-push
-    env: node
-    buildCommand: ""
-    startCommand: node api/send-push.js
